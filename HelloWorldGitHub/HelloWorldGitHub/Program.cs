@@ -5,14 +5,14 @@ namespace HelloWorldGitHub
     class Program
     {
 
-        static void EscreveNatela()
+        static void EscreveNatela(string txt)
         {
-            Console.WriteLine("Primeiro teste com GitHub");
+            Console.WriteLine(txt);
         }
 
         static void Main(string[] args)
         {
-            EscreveNatela();
+            EscreveNatela("Primeiro teste com GitHub");
             Console.ReadKey();
         }
     }
