@@ -10,6 +10,11 @@ namespace HelloWorldGitHub
             Console.WriteLine(txt);
         }
 
+        static void EscreveNatela2(string txt)
+        {
+            EscreveNatela(txt);
+        }
+
         static void Main(string[] args)
         {
             EscreveNatela("Primeiro teste com GitHub");
